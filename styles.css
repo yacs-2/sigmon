@@ -1,4 +1,19 @@
-body {
-  background-color:#eab2d1;
+body{
+  backgroung-color: #eab2d1;
+  color:black;
+  text-align:left;
+  font-family:Mona Sans;
+  margin-left:10%;
+  margin-right:10%
+}
+.heading{
+  font-family:'Roboto',cursive;
+  text-align:center;
+  font-size:200%;
   color: black;
+  text-shadow:#eab2b5 2px 2px;
+}
+h2.heading{
+  font-size:100%;
+  
 }
