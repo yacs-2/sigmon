@@ -1,19 +1,60 @@
-body{
-  backgroung-color: #eab2d1;
-  color:black;
-  text-align:left;
-  font-family:Mona Sans;
-  margin-left:10%;
-  margin-right:10%
+<!DOCTYPE html>
+body {
+  backgroung-color: #d3dbec;
+  color: black;
+  text-align: left;
+  font-family: Mona Sans;
+  margin-left: 10%;
+  margin-right: 10%
 }
+
+
 .heading{
   font-family:'Roboto',cursive;
-  text-align:center;
-  font-size:200%;
+  text-align: center;
+  font-size: 200%;
   color: black;
-  text-shadow:#eab2b5 2px 2px;
+  text-shadow: #eab2b5 2px 2px;
 }
+
+
 h2.heading{
   font-size:100%;
+}
+
+
+.bordered{
+  border-style: solid;
+  border-color: #d3dbec;
+  border-width: 3px;
+  padding: 5px;
+  border-radius:15px;
+  margin:5px;
+  background-color:#d3dbec;
+  color:#555555
+}
+
+
+a {
+  text-decoration:none;
+  font-weight: 700;
+  color:#555555
+}
+
+a:hover, a:visited {
+  color:#d1bec5;
+}
+
+hr{
+  height: 2px;
+  border: 0px;
+  background-color:#d1bec5;
+  
+}
+
+#footer {
+  font-size: 120;
+  text-align: center;
+  
   
 }
