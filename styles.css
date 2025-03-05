@@ -1,12 +1,19 @@
 body {
-  background-color: #f99fc4;
+  /" background-color: #f99fc4;"/
   color: black;
   text-align: left;
   font-family: Mons Sans;
   margin-left: 10%;
   margin-right: 10%
 }
-
+#bg{
+  width:100vw;
+  Height:100vw;
+  z-index:-999;
+  position: fixed;
+  top:0px;
+  left:0px;
+}
 
 .heading{
   font-family:'Roborto'cursive;
