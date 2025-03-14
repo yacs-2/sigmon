@@ -1,1 +1,34 @@
+body {
+  margin: 0px;
+}
+#content,#album,#info{
+  float:left;
+}
+#content{
+  border: dotted 2px pink;
+  width:50%;
+}
+#album{
+  border:dotted 2px purple;
+  width:30%
+}
+#info{
+  border:dotted 2px lightblue;
+  max-width:19%;
+}
 
+#player button{
+  float:left;
+}
+#player audio::-webkit-media-controls-play-button {
+  dispkay:none;
+}
+#play audio::-webkit_media-controls-panel {
+  display:none
+}
+#player audio{
+  height:1em;
+}
+#banner{
+  max-width:100px;
+}
