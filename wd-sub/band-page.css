@@ -1,5 +1,13 @@
 body {
   margin: 0px;
+  background-color: pink;
+  font-family: "Birthstone", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: x-large;
+  color:hotpink;
+}
+
 }
 #content,#album,#info{
   float:left;
@@ -31,4 +39,14 @@ body {
 }
 #banner{
   max-width:100px;
+}
+
+#info img{
+  max-width: 80%;
+  margin: auto;
+  display: block;
+}
+a{
+  color:white;
+  text-decoration:none;
 }
