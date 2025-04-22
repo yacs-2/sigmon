@@ -30,7 +30,7 @@ function clearList() {
 function crossOut(_icon) {
   let thisItem = _icon.parentElement;
   thisItem.style.textDecoration = "solid 2px line-through";
-  thisItem.style.color = "white";
+  thisItem.style.color = "red";
   thisItem.innerHTML = CHECK_ICON + "  " + thisItem.innerText;
 }
 
