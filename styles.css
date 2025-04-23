@@ -1,3 +1,4 @@
+
 body {
   color: black;
   text-align: left;
@@ -19,7 +20,7 @@ body {
   text-align: center;
   font-size: 200%;
   color: white;
-  text-shadow: #CD5C5C 2px 2px;
+  text-shadow: #cd5c5c 2px 2px;
 }
 
 
@@ -28,7 +29,7 @@ h2.heading{
   text-align: center;
   font-size: 200%;
   color: white;
-  text-shadow: #CD5C5C 2px 2px;
+  text-shadow: #cd5c5c 2px 2px;
   font-size:200%;
 }
 
@@ -67,4 +68,36 @@ hr{
   text-align: center;
   
   
+}
+
+#nav-list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  position: relative;
+  background-color: #cd5c5c;
+}
+
+#nav-list > li {
+  flex-grow: 1; 
+  dislpay: inline-block;
+  width: 15%;
+}
+
+#nav-list ul {
+  display: none;
+  background-color: #cd5c5c; 
+}
+#nav-list li:hover {
+  background-color:#ab3a3a;
+  color:white;
+}
+#nav-list li:hover ul {
+  display: block;
+} 
+
+#nav-list li ul{
+  list-style-type: none;
+  padding: 0px;
+  postion: absolute;
 }
