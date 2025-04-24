@@ -71,8 +71,10 @@ hr{
 }
 
 #nav-list {
+  padding: 0px;
   display: flex;
   justify-content: center;
+  align-content: center;
   list-style-type: none;
   position: relative;
   background-color: #cd5c5c;
@@ -80,17 +82,22 @@ hr{
 
 #nav-list > li {
   flex-grow: 1; 
-  dislpay: inline-block;
-  width: 15%;
+  dislpay: block;
+  position: relative;
+  text-align: center;
+  margin: auto;
 }
-
+#nav-list li a {
+  display: inline-block;
+  width: 100%;
+}
 #nav-list ul {
   display: none;
   background-color: #cd5c5c; 
 }
 #nav-list li:hover {
   background-color:#ab3a3a;
-  color:white;
+  color: white;
 }
 #nav-list li:hover ul {
   display: block;
@@ -100,4 +107,5 @@ hr{
   list-style-type: none;
   padding: 0px;
   postion: absolute;
+  width:100%;
 }
