@@ -11,7 +11,8 @@ body {
   text-align: left;
   font-family: Mons Sans;
   margin-left: 10%;
-  margin-right: 10%
+  margin-right: 10%;
+   //background-image: url(
 }
 #bg{
   width:100vw;
