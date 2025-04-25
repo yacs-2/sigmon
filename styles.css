@@ -1,23 +1,9 @@
-#image{
-  z-index:-999;
-  width:100vw;
-  height:100vh;
-  position:fixed;
-  top:0px;
-  left:0px;
-}
 body {
   color: black;
   text-align: left;
   font-family: Mons Sans;
   margin-left: 10%;
   margin-right: 10%;
-   //background-image: url(https://github.com/yacs-2/sigmon/blob/main/resource/pexels-iriser-2781760%20(5).jpg?raw=true);
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  background-repear: no-repeat;
-  background-blend-mode: lighten;
 }
 #bg{
   width:100vw;
