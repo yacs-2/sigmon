@@ -1,11 +1,11 @@
 body {
   color: black;
   text-align: left;
-  font-family: Mons Sans;
+  font-family: mons sans;
   margin-left: 10%;
   margin-right: 10%;
 }
-#bg{
+#bg {
   width:100vw;
   height:100vh;
   z-index:-999;
@@ -14,7 +14,7 @@ body {
   left:0px;
 }
 
-.heading{
+.heading {
   font-family:'Roborto'cursive;
   text-align: center;
   font-size: 200%;
@@ -23,7 +23,7 @@ body {
 }
 
 
-h2.heading{
+h2.heading {
   font-family:'Roborto'cursive;
   text-align: center;
   font-size: 200%;
@@ -33,7 +33,7 @@ h2.heading{
 }
 
 
-.bordered{
+.bordered {
   border-style: dotted;
   border-color: white;
   border-width: 3px;
@@ -55,7 +55,7 @@ a:hover, a:visited {
   color:#641e16;
 }
 
-hr{
+hr {
   height: 2px;
   border: 0px;
   background-color:#641e16;
@@ -102,7 +102,7 @@ hr{
   display: block;
 } 
 
-#nav-list li ul{
+#nav-list li ul {
   list-style-type: none;
   padding: 0px;
   postion: absolute;
