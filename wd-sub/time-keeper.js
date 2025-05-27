@@ -5,7 +5,7 @@ let hasInitDate = false;
 
 cookieArr = document.cookie.split(";");
 for (const element of cookieArr) {
-	if (element.split("=")[0] == "inti-date") {
+	if (element.split("=")[0] == "init-date") {
 		hasInitDate = true;
 		initDate = element.split("=")[1];
 	} 
