@@ -8,9 +8,17 @@
     <div id="gheader"></div>
     <img id="bg" src="/sigmon/resource/pexels-iriser-2781760 (5).jpg">   
     <div class="bordered">
-      <h2 class="heading">Welcome to Mei Mei's Website! :)</h2>
+      <h2 class="heading">Welcome <span id="userspan"></span>to Mei Mei's Website! :)</h2>
     </div>
     <hr>
        <script src="/sigmon/global-header.js"></script>
+       <script>
+          let urlParams = new URLSearchParams(window.location.search);
+          if (urlParams.has("Variable1")) {
+            let username = urlParams.get("variable1");
+            let userspan = document.getElementById("userspan");
+            userspan.innerText = ", " + usernme + ",";
+          }
+       </script>
   </body>
 </html>
