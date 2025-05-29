@@ -1,0 +1,22 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title>Redirect</title>
+    <script>
+      let urlParams = new URLSearchParams(window.location.search);
+      let username = urlParams.get("variable1");
+
+      if (username == "VIP") {
+        //redirect to secret page
+        window.location.replace("https://yacs-2.github.io/sigmon/secret.html")=
+      } else {
+       //redirect to home 
+      window.location.replace("https://yacs-2.github.io/sigmon/home.html")=
+      }
+      
+    </script>
+  </head>
+  <body>
+    <p>Redirecting...</p>
+  </body>
+</html>
